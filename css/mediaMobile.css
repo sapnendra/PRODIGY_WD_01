@@ -1,0 +1,43 @@
+@media (min-width: 320px) and (max-width: 480px){
+    .topleft {
+        width: 100%;
+    }
+
+    .section1 {
+        min-height: 80vh;
+    }
+
+    .dumbellimg {
+        width: 250px;
+    }
+
+    .section2 {
+        padding: 0px;
+    }
+
+    .section2 p {
+       padding: 0px;
+    }
+
+    .flex-wrap {
+        flex-wrap: wrap;
+    }
+
+    .box {
+        min-width: 70vw;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
+    .hideOnMobile {
+        display: none;
+    }
+
+    .sidebar {
+        width: 80%;
+        font-size: 1.4rem;
+    }
+}
+

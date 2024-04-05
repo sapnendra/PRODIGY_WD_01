@@ -1,0 +1,44 @@
+@media (min-width: 481px) and (max-width: 1024px) {
+
+    .topleft {
+        width: 100%;
+    }
+
+    .section1 {
+        min-height: 50vh;
+    }
+    
+    .buttons {
+        margin: 50px;
+    }
+    
+    .btn {
+        padding: 10px 20px;
+        font-size: 1.2rem;
+    }
+
+    .section2 p {
+        padding: 0px;
+    }
+
+    .flex-wrap {
+        flex-wrap: wrap;
+    }
+
+    .box {
+        min-width: 25vw;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
+    .hideOnTablet {
+        display: none;
+    }
+}
+
+
+@media (min-width: 1024px) {
+
+}

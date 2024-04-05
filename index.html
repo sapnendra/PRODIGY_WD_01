@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SanendraFitness - The best fitness gym in Bhopal</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/utils.css">
+    <link rel="stylesheet" href="./css/mediaMobile.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+</head>
+
+<body class='overflow-x-hidden'>
+    <div class="container mx-auto">
+        <header>
+            <nav class="flex justify-between">
+                <div class="logo font-bold flex items-center text-orange">SapnendraFitness</div>
+                <ul class="sidebar">
+                    <li onclick=hideSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact Us</li>
+                    <li><button class="btn">Join Now</button></li>
+                </ul>
+                
+                <ul class="navbar flex items-center">
+                    <li class="hideOnMobile hideOnTablet">Home</li>
+                    <li class="hideOnMobile hideOnTablet">About</li>
+                    <li class="hideOnMobile hideOnTablet">Services</li>
+                    <li class="hideOnMobile hideOnTablet">Contact Us</li>
+                    <li class="hideOnMobile hideOnTablet"><button class="btn">Join Now</button></li>
+                    <li class="menu-button" onclick=showSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <main class="min-h-screen">
+            <section class="section1">
+                <div class="flex">
+                    <div class="topleft flex flex-col justify-center px-2">
+                        <div class=" text-center">
+                            <img class="dumbellimg" src="./img/dumbell.png" alt="">
+                        </div>
+                        <h1 class="my-1 text-center">The best fitness Gym in the town is here</h1>
+                        <p class=" text-center">Welcome to <span class="logo text-orange">SapnendraFitness</span>, where fitness meets excellence! Our state-of-the-art gym center is meticulously designed to cater to all your fitness needs, ensuring you achieve your health and wellness goals in a supportive and motivating environment.</p>
+                            <!-- Display the countdown timer in an element -->
+                            <div class="buttons">
+                                <button class="btn">Join now</button>
+                                <button class="btn">Contact Us</button>
+                            </div>
+                        </div>
+                    <div class="topright flex justify-center hideOnMobile hideOnTablet">
+                        <img class="gymimg" src="./img/gym.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="section2">
+                <h1 class="text-center my-2">Pricing</h1>
+                <p class="my-2">At <span class="logo text-orange">SapnendraFitness</span>, we believe in providing transparent and affordable pricing options to suit every budget and lifestyle. Our memberships are designed to offer exceptional value and support your journey towards a healthier and happier you. Join us today and discover the difference at <span class="logo text-orange">SapnendraFitness!</span></p>
+                    <div class="boxes flex flex-wrap justify-center">
+                        <div class="box">
+                            <h2>Standard</h2>
+                            <ul>
+                                <li class="highlighted">₹300/month</li>
+                                <li>1 member access</li>
+                                <li>1 hour in morning</li>
+                                <li>No GYM Trainer</li>
+                                <li>Help center access</li>
+                                <li><button class="btn">Join Now</button></li>
+                            </ul>
+                        </div>
+                        <div class="box">
+                            <h2>Premium</h2>
+                            <ul>
+                                <li class="highlighted">₹450/month</li>
+                                <li>2 users members</li>
+                                <li>2 hours evening morning</li>
+                                <li>GYM Trainer will Provided</li>
+                                <li>Help center access</li>
+                                <li><button class="btn">Join Now</button></li>
+                            </ul>
+                        </div>
+                        <div class="box">
+                            <h2>Family</h2>
+                            <ul>
+                                <li class="highlighted">₹700/month</li>
+                                <li>Your entire family access</li>
+                                <li>All day</li>
+                                <li>GYM trainer & Call support</li>
+                                <li>Help center access</li>
+                                <li><button class="btn">Join Now</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <hr/>
+        <footer>
+            Copyright &copy; sapnendrafitness.com, All rights reserved 2024
+        </footer>
+    </div>
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
