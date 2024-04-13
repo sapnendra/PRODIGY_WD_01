@@ -19,7 +19,7 @@ This is a simple web application for creating a responsive landing page using HT
 1. Clone the repository:
 
    ```
-   git clone https://github.com/sapnendra/responsivelandingpage.git
+   git clone https://github.com/sapnendra/PRODIGY_WD_01.git
    ```
 
 2. Open the `index.html` file in your web browser to view the landing page.
